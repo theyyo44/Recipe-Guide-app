@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane fx:id="anchorpane" prefHeight="215.0" prefWidth="225.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.yemek.YemeklerController">
+   <children>
+      <VBox alignment="BOTTOM_RIGHT" prefHeight="200.0" prefWidth="100.0" styleClass="yemek" stylesheets="@../../values/style.css" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="40.0" prefWidth="225.0">
+               <children>
+                  <Label fx:id="tarifAdLabel" prefHeight="54.0" prefWidth="111.0" text="Yemek Ad" textFill="WHITE" />
+                  <Label fx:id="MaliyetLabel" prefHeight="87.0" prefWidth="113.0" text="Maliyet" textFill="WHITE" />
+               </children>
+            </HBox>
+            <ImageView fx:id="img" fitHeight="131.0" fitWidth="225.0" pickOnBounds="true" preserveRatio="true" VBox.vgrow="NEVER" />
+            <HBox prefHeight="40.0" prefWidth="226.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+               <children>
+                  <Label fx:id="hazırlanmaSureLabel" prefHeight="80.0" prefWidth="113.0" text="Hazırlanma Süresi" textFill="WHITE" />
+                  <Label fx:id="KategoriLabel" prefHeight="46.0" prefWidth="112.0" text="Kategori" textFill="WHITE" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

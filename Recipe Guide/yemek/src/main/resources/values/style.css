@@ -1,0 +1,93 @@
+
+.search-box{
+    -fx-background-color: #C39F82;
+    -fx-background-radius: 100;
+
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+    -fx-border-color: #757575;
+    -fx-border-radius: 10;
+}
+
+.search-button{
+    -fx-background-color: #111111;
+    -fx-background-radius: 30;
+}
+.search-button:hover {
+    -fx-background-color: #FF0000;
+}
+
+.right-bar{
+    -fx-background-color: #D3D3D3;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.4), 10.0, 0.0, 0.0, 10.0)
+}
+
+.button{
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 100;
+
+}
+
+.button:hover {
+    -fx-background-color: #27647F;
+    -fx-text-fill: white;
+}
+
+.left-bar{
+    -fx-background-color: #27647F;
+}
+
+
+.yemek{
+    -fx-background-color: #FFFFFF
+    -fx-background-radius: 30
+}
+.combo-box {
+     -fx-background-color: #FFFFFF;
+     -fx-padding: 5px;
+     -fx-border-radius: 10;
+     -fx-background-radius: 10;
+     -fx-border-color: #757575;
+     -fx-border-width: 1px;
+ }
+
+
+.combo-box .list-cell {
+     -fx-background-color: transparent;
+     -fx-text-fill: #333;
+ }
+
+
+.combo-box .list-cell:hover {
+     -fx-background-color: #f0f0f0;
+ }
+
+.combo-box-popup .list-view {
+     -fx-background-color: #ffffff;
+     -fx-border-color: #bdbdbd;
+     -fx-border-width: 1px;
+     -fx-padding: 5px;
+ }
+
+.combo-box .arrow {
+     -fx-background-color: transparent; /* Arka planı şeffaf yap */
+     -fx-shape: " "; /* Ok simgesini kaldır */
+     -fx-padding: 0; /* İç boşlukları kaldır */
+     -fx-min-width: 0; /* Minimum genişliği sıfırla */
+     -fx-max-width: 0; /* Maksimum genişliği sıfırla */
+ }
+
+.image-pane {
+
+    -fx-background-radius: 15; /* Köşe yuvarlama */
+    -fx-border-color: #b3b3b3; /* Çerçeve rengi */
+    -fx-border-width: 2; /* Çerçeve genişliği */
+    -fx-border-radius: 15; /* Çerçevenin köşe yuvarlaması */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 10, 0.2, 4, 4); /* Gölge efekti */
+    -fx-padding: 10; /* İçerik ile kenar arasındaki boşluk */
+}

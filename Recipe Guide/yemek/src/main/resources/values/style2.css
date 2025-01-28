@@ -1,0 +1,32 @@
+
+.button{
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 100;
+
+}
+
+.button2{
+    -fx-background-color:  #FFFFFF;
+    -fx-background-radius: 100;
+}
+
+
+
+
+
+
+.button:hover {
+    -fx-background-color: #27647F; /* Buton üzerine gelindiğinde arka plan rengi */
+    -fx-text-fill: white; /* Buton üzerine gelindiğinde yazı rengi */
+}
+
+.button2:hover {
+    -fx-background-color: #AA0000; /* Buton üzerine gelindiğinde arka plan rengi */
+    -fx-text-fill: white; /* Buton üzerine gelindiğinde yazı rengi */
+}
+
+.textfield{
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 100;
+
+}
